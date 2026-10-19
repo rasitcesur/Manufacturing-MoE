@@ -1,0 +1,12 @@
+{
+  "variant": "normal",
+  "checkpoint_files": [
+    "checkpoints/manufacturing/model.pt",
+    "checkpoints/robotics/robotics_model.pt",
+    "checkpoints/gmaw/arc_welding_model.pt",
+    "checkpoints/rsw/model.pt",
+    "checkpoints/tig/model.pt"
+  ],
+  "training_report": "training_results/training_report.json",
+  "synthetic_data_only": true
+}

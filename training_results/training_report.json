@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "variant": "normal",
+  "synthetic_simulator_warning": true,
+  "quick_undertrained": false,
+  "architecture_parameters": {
+    "parts": {
+      "Time Transformer": 83652,
+      "Manufacturing Energy MoE": 30354,
+      "Manufacturing MCE": 3402,
+      "General Robotics": 50374,
+      "GMAW": 90334,
+      "RSW": 55746,
+      "TIG": 55746
+    },
+    "total_parameters": 369608,
+    "num_families": 15,
+    "float32_weight_MiB": 1.409942626953125,
+    "int8_raw_weight_MiB": 0.35248565673828125
+  },
+  "metrics_rows": 214,
+  "incomplete_stage_reports": [],
+  "validation_model_selection": "train scripts use validation; test/OOD are audits only",
+  "no_pretrained_checkpoint": "training initializes from random weights only",
+  "weights_not_shared_between_general_robot_gmaw_rsw_tig": true
+}

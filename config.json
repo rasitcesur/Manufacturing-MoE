@@ -1,0 +1,6 @@
+{
+  "variant": "normal",
+  "operation_families": 15,
+  "trainable_parameters": 369608,
+  "trained_weights_included": false
+}
